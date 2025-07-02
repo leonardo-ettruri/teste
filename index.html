@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Android</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        @charset "UTF-8";
+
+:root {
+    --cor0: #ffffff;
+    --cor1: #00FFB3;
+    --cor2: #2BD9A5;
+    --cor3: #42A688;
+    --cor4: #3D665A;
+    --cor5: #293330;
+    --cor6: #171d1b;
+    --cor7: #000000;
+
+    --titutlo: ;
+    --subtitulo: ;
+    --texto: ;
+}
+
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgba(0, 255, 179, 0.2);
+}
+
+header {
+    background-image: linear-gradient(to top, var(--cor5), var(--cor4));
+    padding: 40px 15px 15px 15px;
+}
+
+header h1 {
+    text-align: center;
+    color: var(--cor0);
+    margin-bottom: 10px;
+}
+
+header p {
+    text-align: center;
+    color: var(--cor0);
+    margin-bottom: 40px;
+    
+}
+
+header hr {
+    height: 3px;
+    border-radius: 5px;
+    background-color: var(--cor0);
+    margin-bottom: 10px;
+}
+
+header > nav {
+    border-radius: 10px;
+    background-color: var(--cor6);
+    padding: 10px 0px 10px 0px;
+}
+
+header > nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px 10px 15px;
+}
+
+header > nav a:hover {
+    border-radius: 10px;
+    background-color: var(--cor1);
+    color: var(--cor7);
+}
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    background-color: var(--cor0);
+    margin: auto;
+    padding: 10px 50px 30px 50px;
+    box-shadow: 0px 0px 10px var(--cor7);
+}
+
+main > article > h2 {
+    border-radius: 10px 0px 0px 10px;
+    background-image: linear-gradient(to right, var(--cor5), var(--cor0));
+    color: white;
+    padding: 5px 10px 5px 10px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+main > article > h3 {
+    border-radius: 10px 0px 0px 10px;
+    background-image: linear-gradient(to right, var(--cor4), var(--cor0));
+    color: white;
+    padding: 5px 10px 5px 10px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+main > article > p {
+    text-align: justify;
+    text-indent: 16px;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+aside {
+    border-radius: 7.5px 7.5px 7.5px 7.5px;
+    background-color: rgba(43, 217, 165, 0.2);
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 20px;
+}
+
+aside > h3 {
+    border-radius: 7.5px 7.5px 0px 0px;
+    background-color: var(--cor6);
+    color: var(--cor0);
+    margin: -20px -20px 20px -20px;
+    padding: 5px 7.5px 7.5px 15px;
+}
+
+aside > p {
+    text-align: justify;
+    text-indent: 16px;
+    line-height: 24px;
+}
+
+aside > ul {
+    list-style-position: inside;
+    columns: 2;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+aside > ul > li {
+    text-decoration: none;
+}
+
+aside > ul > li > abbr {
+    text-decoration: none;
+}
+
+footer {
+    min-width: 300px;
+    max-width: 1100px;
+    border-radius: 0px 0px 15px 15px;
+    background-color: var(--cor4);
+    text-align: center;
+    color: var(--cor0);
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 5px 0px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+}
+
+div.video {
+    max-width: 1000px;
+    aspect-ratio: 16/9;
+    margin: 50px 0px 100px 0px;
+}
+
+div.video > iframe {
+    height: 100%;
+    width: 100%;
+}
+    </style>
+</head>
+<body>
+    <header>
+
+        <h1>ANDROID</h1>
+        <p>Tudo aquilo que você sempre quis saber sobre o mundo Tech, em um único só lugar</p>
+        <hr>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Notícias</a>
+            <a href="#">Curiosidades</a>
+            <a href="#">Contato</a>
+        </nav>
+        
+    </header>
+
+    <main>
+        <article>
+
+        <h2>A Origem do Android</h2>
+        <p>O sistema operacional Android tem uma trajetória marcada por inovação, visão de futuro e adaptação. Antes de se tornar o sistema mais utilizado do mundo, sua criação passou por diferentes fases, desde uma ideia inicial para câmeras digitais até sua consolidação no mercado de smartphones. A compreensão dessa origem ajuda a entender os valores que moldaram o Android desde o princípio.</p>
+
+        <h3>Como tudo começou</h3>
+        <p>O Android foi criado em 2003 por quatro desenvolvedores: Andy Rubin, Rich Miner, Nick Sears e Chris White. A princípio, a proposta era desenvolver um sistema operacional para câmeras digitais inteligentes, permitindo que os dispositivos se conectassem à internet e armazenassem imagens na nuvem. No entanto, os criadores perceberam que o mercado de câmeras era limitado e redirecionaram o projeto para o setor de telefonia móvel, que apresentava maior potencial de crescimento.</p>
+
+        <p>A empresa que abrigava o projeto era a Android Inc., localizada na Califórnia, nos Estados Unidos. Desde o início, o sistema foi pensado para ser gratuito, de código aberto e baseado no kernel do Linux. Esses pilares tecnológicos possibilitaram flexibilidade para fabricantes e um ambiente colaborativo para desenvolvedores. Foi esse modelo de sistema operacional que despertou o interesse do Google, em um momento em que a empresa buscava entrar no mercado mobile.</p>
+
+        <h3>Aquisição pelo Google</h3>
+        <p>A compra da Android Inc. pelo Google ocorreu em 2005 e foi um marco decisivo para o futuro da plataforma. O valor pago girou em torno de 50 milhões de dólares, e a partir desse momento, o sistema passou a ser desenvolvido com a infraestrutura e o investimento da gigante de tecnologia. A missão do Google era criar uma alternativa aberta aos sistemas móveis proprietários, como o iOS da Apple.</p>
+
+        <p>O primeiro dispositivo com Android foi lançado em 2008: o HTC Dream, também conhecido como T-Mobile G1. Ele já trazia conceitos centrais do sistema, como multitarefa, widgets e integração com serviços do Google. Desde então, o Android evoluiu rapidamente, ampliando seu alcance e consolidando-se como a plataforma dominante em dispositivos móveis ao redor do mundo.</p>
+
+        <h2>O Bugdroid</h2>
+        <p>A identidade visual de um sistema é fundamental para torná-lo reconhecível e simpático ao público. No caso do Android, a criação de um mascote desempenhou papel essencial para humanizar a plataforma e fortalecer sua imagem junto aos usuários. O processo que levou à criação do Bugdroid envolveu tanto iniciativas informais quanto esforços profissionais dentro da equipe do Google.</p>
+
+        <h3>Dandroids</h3>
+        <p>Em 2007, quando o Android ainda estava em desenvolvimento, o engenheiro Dan Morrill resolveu criar uma representação visual do sistema para uso interno. Usando o software de ilustração vetorial Inkscape, ele produziu figuras coloridas e simpáticas, que rapidamente ganharam o apelido de "Dandroids". Essas imagens foram usadas em apresentações e documentos da equipe, ajudando a ilustrar o projeto de forma leve e descontraída.</p>
+
+        <p>Embora nunca tenham sido adotados oficialmente, os Dandroids mostraram que havia espaço para um símbolo visual mais forte. A necessidade de criar um mascote profissional e universal passou a ser discutida com mais seriedade dentro da equipe de design do Google. Essa nova etapa resultaria na criação de um ícone que viria a representar o sistema Android globalmente.</p>
+
+        <h3>Bugdroid: o robô verde definitivo</h3>
+        <p>A missão de criar o mascote oficial foi assumida por Irina Blok, designer russa e funcionária do Google. Seu objetivo era elaborar uma figura simples, marcante e facilmente reconhecível, que pudesse ser utilizada de forma eficiente em diferentes plataformas e tamanhos. A inspiração veio dos pictogramas usados em sinalizações públicas, como os que indicam banheiros, por sua clareza visual.</p>
+
+        <p>Assim nasceu o Bugdroid, o robô verde que se tornaria símbolo universal do Android. Seu design geométrico, com corpo cilíndrico, olhos arredondados e antenas, transmite simpatia e neutralidade. A escolha da cor verde foi estratégica, pois remete à tecnologia e à acessibilidade. O Bugdroid se tornou um dos ícones mais conhecidos do mundo digital e é constantemente utilizado em materiais promocionais e eventos da marca.</p>
+
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/l2UDgpLz20M?si=waTv1X4toSX6b0y5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+        <h2>Nomeando com açúcar</h2>
+        <p>Além do mascote, outro elemento curioso da história do Android foi a forma como suas versões eram nomeadas. Durante anos, o sistema recebeu nomes de doces em ordem alfabética, criando uma identidade leve, divertida e fácil de lembrar para cada lançamento. Essa estratégia também contribuiu para aproximar o Android do público, destacando-se dos concorrentes.</p>
+
+        <aside>
+            <h3>Nomeando com sobremesas</h3>
+            <p>A partir da versão 1.5, o Google passou a adotar nomes de sobremesas para identificar suas atualizações do sistema Android. A ideia era que os nomes, além de seguirem a ordem alfabética, fossem mundialmente conhecidos e evocassem sensações positivas. A seguir, estão listadas todas as versões com seus respectivos nomes:</p>
+                <ul>
+                    <li>1.5 - <abbr title="Bolo de Copo">Cupcake</abbr></li>
+                    <li>1.6 - <abbr title="Rosquinha">Donut</abbr></li>
+                    <li>3.0 - <abbr title="Bomba">Eclair</abbr></li>
+                    <li>2.2 - <abbr title="Iorgute Congelado">Froyo</abbr></li>
+                    <li>2.3 - <abbr title="Biscoito de Gengibre">Gingerbread</abbr></li>
+                    <li>3.0 - <abbr title="Favo de Mel">Honeycomb</abbr></li>
+                    <li>4.0 - <abbr title="Sanduíche de Sorvete">Ice Cream Sandwich</abbr></li>
+                    <li>4.1 - <abbr title="Jujuba">Jelly Bean</abbr></li>
+                    <li>4.4 - <abbr title="KitKat">KitKat</abbr></li>
+                    <li>5.0 - <abbr title="Pirulito">Lolipop</abbr></li>
+                    <li>6.0 - <abbr title="Marshmallow">Marshmallow</abbr></li>
+                    <li>7.0 - <abbr title="Torrone">Nougat</abbr></li>
+                    <li>8.0 - <abbr title="Oreo">Oreo</abbr></li>
+                    <li>9.0 - <abbr title="Torta">Pie</abbr></li>
+                </ul>
+            <p>Essa tradição foi recebida com entusiasmo pelo público, e o nome de cada versão passou a fazer parte da cultura do sistema. Algumas atualizações chegaram a envolver parcerias comerciais, como no caso do Android KitKat, em colaboração com a Nestlé. A estratégia combinava elementos de branding e marketing, criando expectativa e engajamento a cada novo lançamento.</p>
+        </aside>
+
+        <h3>Mudança de abordagem</h3>
+        <p>Apesar da popularidade da tradição, em 2019 o Google decidiu abandonar os nomes de doces a partir da versão 10. A justificativa oficial foi tornar o sistema mais neutro, acessível e compreensível para todos os públicos, independentemente da cultura ou idioma. Assim, o sistema passou a adotar apenas a numeração sequencial: Android 10, Android 11, Android 12 e assim por diante.</p>
+
+        <p>Mesmo com a mudança na nomenclatura pública, o hábito de usar nomes de sobremesas continuou internamente nas equipes de desenvolvimento. No entanto, para o consumidor final, a nova abordagem trouxe mais clareza e profissionalismo à marca. A decisão também refletiu o amadurecimento do sistema, que passou a ser visto não apenas como inovador e divertido, mas também como uma plataforma madura e confiável.</p>
+
+        <h2>Estrutura e Código Aberto</h2>
+        <p>A arquitetura técnica do Android é um de seus maiores diferenciais. Desde sua criação, o sistema foi projetado para ser modular, expansível e acessível para desenvolvedores e fabricantes. O uso do kernel Linux e a filosofia de código aberto garantiram ao Android uma base sólida para inovação e adaptação em diferentes tipos de dispositivos. Esses elementos explicam por que tantas empresas ao redor do mundo adotaram o Android como sistema operacional em seus produtos.</p>
+
+        <h3>Base Linux e personalização</h3>
+        <p>O Android utiliza o kernel do Linux como seu núcleo, o que garante ao sistema uma estrutura confiável, estável e altamente escalável. Esse núcleo gerencia os recursos básicos do hardware, como memória, bateria, sensores e conexão de rede. A utilização de uma base Linux também facilita o desenvolvimento de drivers e a compatibilidade com uma ampla gama de dispositivos.</p>
+
+        <p>Graças ao projeto Android Open Source Project (AOSP), o sistema é disponibilizado de forma aberta, permitindo que qualquer empresa ou desenvolvedor acesse o código-fonte e adapte o sistema para suas necessidades. Essa flexibilidade é um dos motivos pelos quais o Android é utilizado por diversas marcas, como Samsung, Xiaomi, Motorola, ASUS e muitas outras. Cada fabricante pode modificar a interface, adicionar recursos próprios e até criar versões específicas para determinados públicos ou mercados.</p>
+
+        <h3>Google Play Services e controle</h3>
+        <p>Embora o Android seja tecnicamente um sistema aberto, sua versão mais utilizada no mercado depende fortemente dos serviços proprietários do Google. Esses serviços, agrupados sob o nome Google Mobile Services (GMS), incluem a Play Store, Google Maps, YouTube, Google Fotos, autenticação com conta Google, notificações em segundo plano e APIs para localização, backup, entre outras funções.</p>
+
+        <p>Os dispositivos que não possuem certificação do Google, como alguns modelos vendidos na China, não têm acesso oficial a esses serviços. Isso faz com que empresas desenvolvam alternativas locais, como lojas de aplicativos próprias e sistemas de sincronização independentes. A dependência dos Google Play Services, apesar de questionada por alguns, é um dos fatores que garante a padronização e a estabilidade da experiência de uso em grande parte dos smartphones Android no mundo.</p>
+
+        <h2>Impacto e Presença Global</h2>
+        <p>Ao longo de pouco mais de uma década, o Android se consolidou como o sistema operacional mais utilizado do mundo em dispositivos móveis. Seu crescimento foi impulsionado não apenas pela tecnologia envolvida, mas também por uma estratégia de mercado voltada à acessibilidade, à flexibilidade e à inclusão digital. Hoje, o Android ultrapassa a categoria de sistema operacional: ele é parte integrante da transformação digital global.</p>
+
+        <h3>O sistema mais usado do mundo</h3>
+        <p>Atualmente, o Android é responsável por mais de 70% do mercado global de sistemas móveis, ultrapassando com folga o iOS da Apple. Ele está presente em bilhões de dispositivos ativos, incluindo smartphones, tablets, televisores inteligentes, carros conectados, relógios inteligentes (smartwatches) e até dispositivos domésticos, como geladeiras e assistentes virtuais. Essa ampla adoção se deve à combinação de três fatores principais: código aberto, apoio do Google e suporte de fabricantes globais.</p>
+
+        <p>Sua presença não se limita aos mercados centrais; o Android é particularmente forte em países em desenvolvimento, onde oferece uma alternativa de baixo custo para que milhões de pessoas tenham acesso à internet e a aplicativos móveis. Por meio dele, empresas, escolas e governos conseguiram ampliar o acesso à tecnologia digital em regiões historicamente excluídas do universo digital.</p>
+
+        <h3>Inclusão digital e inovação</h3>
+        <p>Um dos maiores impactos do Android está relacionado à inclusão digital. Dispositivos com Android estão disponíveis em faixas de preço variadas, o que possibilita que mesmo pessoas de baixa renda possam adquirir um smartphone com acesso a ferramentas educacionais, bancárias, comunicacionais e de entretenimento. O sistema também está presente em projetos sociais, como iniciativas de alfabetização digital e inclusão tecnológica em áreas rurais.</p>
+
+        <p>Além disso, o Android continua investindo fortemente em inovação. A cada nova versão, são incorporados recursos ligados à inteligência artificial, segurança aprimorada, eficiência energética, comandos por voz, gestos, conectividade com a Internet das Coisas (IoT) e compatibilidade com redes móveis mais rápidas, como o 5G. Isso garante que o sistema continue competitivo e atualizado frente às novas exigências tecnológicas da sociedade contemporânea.</p>
+
+        </article>
+    </main>
+
+    <footer>
+        <p>Site criado por Leonardo Ettruri.</p>
+    </footer>
+</body>
+</html>
